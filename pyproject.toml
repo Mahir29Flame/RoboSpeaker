@@ -1,6 +1,6 @@
 [project]
 name = "robospeaker-win"
-version = "0.1.5"
+version = "0.1.6"
 description = "A simple, lightweight Text-to-Speech (TTS) tool for Windows using SAPI."
 readme = "README.md"
 authors = [{ name = "Mahir29Flame" }]
@@ -8,6 +8,7 @@ license = { text = "MIT" }
 requires-python = ">=3.11"
 dependencies = [
     "pywin32>=306",
+    "rich>=13.0.0",
 ]
 keywords = ["tts", "speech", "windows", "sapi", "robospeaker"]
 classifiers = [

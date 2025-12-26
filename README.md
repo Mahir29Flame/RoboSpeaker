@@ -13,7 +13,7 @@ A lightweight, zero-configuration Text-to-Speech (TTS) utility tailored for Wind
 ## 🛠️ Requirements
 - **OS**: Windows (Required for `SAPI.SpVoice`).
 - **Python**: 3.11 or higher.
-- **Dependencies**: `pywin32` (for `win32com.client`).
+- **Dependencies**: `pywin32` (for `win32com.client`), `rich` (for terminal styling).
 
 ## 🚀 Getting Started
 
