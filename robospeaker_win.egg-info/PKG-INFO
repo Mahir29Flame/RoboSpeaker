@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: robospeaker-win
-Version: 0.1.5
+Version: 0.1.6
 Summary: A simple, lightweight Text-to-Speech (TTS) tool for Windows using SAPI.
 Author: Mahir29Flame
 License: MIT
@@ -15,6 +15,7 @@ Classifier: Programming Language :: Python :: 3
 Requires-Python: >=3.11
 Description-Content-Type: text/markdown
 Requires-Dist: pywin32>=306
+Requires-Dist: rich>=13.0.0
 
 # 🤖 RoboSpeaker
 
@@ -31,7 +32,7 @@ A lightweight, zero-configuration Text-to-Speech (TTS) utility tailored for Wind
 ## 🛠️ Requirements
 - **OS**: Windows (Required for `SAPI.SpVoice`).
 - **Python**: 3.11 or higher.
-- **Dependencies**: `pywin32` (for `win32com.client`).
+- **Dependencies**: `pywin32` (for `win32com.client`), `rich` (for terminal styling).
 
 ## 🚀 Getting Started
 
