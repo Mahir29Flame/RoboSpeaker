@@ -18,13 +18,31 @@ A lightweight, zero-configuration Text-to-Speech (TTS) utility tailored for Wind
 ## 🚀 Getting Started
 
 ### 1. Installation
-Ensure you have the necessary COM bindings installed:
+
+Choose your preferred package manager to install **RoboSpeaker**:
+
+#### Using `pip`
 ```bash
-pip install pywin32
+pip install robospeaker-win
+```
+
+#### Using `pipx` (Recommended for CLI tools)
+```bash
+pipx install robospeaker-win
+```
+
+#### Using `uv` (Fastest)
+```bash
+uv tool install robospeaker-win
 ```
 
 ### 2. Usage
-Run the script directly:
+If installed via `pipx` or `uv tool`, you can run it from anywhere:
+```bash
+robospeaker
+```
+
+Or run the script directly if you cloned the repo:
 ```bash
 python main.py
 ```
