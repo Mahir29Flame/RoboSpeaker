@@ -1,6 +1,6 @@
 [project]
 name = "robospeaker-win"
-version = "0.1.4"
+version = "0.1.5"
 description = "A simple, lightweight Text-to-Speech (TTS) tool for Windows using SAPI."
 readme = "README.md"
 authors = [{ name = "Mahir29Flame" }]

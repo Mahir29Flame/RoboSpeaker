@@ -8,6 +8,6 @@ def main():
         if text.lower() == "/exit":
             break
         speaker.Speak(text)
-
+        print("")
 if __name__ == "__main__":
     main()
