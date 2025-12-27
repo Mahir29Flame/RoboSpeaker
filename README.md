@@ -10,6 +10,12 @@ A lightweight, zero-configuration Text-to-Speech (TTS) utility tailored for Wind
 - **Native Windows Integration**: Uses Microsoft's Speech API for reliable performance without heavy external libraries.
 - **Escape Commands**: Easy `/exit` command to terminate the session instantly.
 
+## 🆕 What's New (v0.1.7)
+- **Terminal Styling**: Integrated the `rich` library for a much cleaner and colored terminal experience.
+- **Improved Input**: Styled input prompts with color-coded instructions.
+- **Bug Fixes**: Resolved issues with library imports and missing package declarations.
+- **Refined Exit**: Added graceful handling for `Ctrl+C` (KeyboardInterrupt) and the `/exit` command.
+
 ## 🛠️ Requirements
 - **OS**: Windows (Required for `SAPI.SpVoice`).
 - **Python**: 3.11 or higher.

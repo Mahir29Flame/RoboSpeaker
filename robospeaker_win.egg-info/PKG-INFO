@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: robospeaker-win
-Version: 0.1.6
+Version: 0.1.7
 Summary: A simple, lightweight Text-to-Speech (TTS) tool for Windows using SAPI.
 Author: Mahir29Flame
 License: MIT
@@ -28,6 +28,12 @@ A lightweight, zero-configuration Text-to-Speech (TTS) utility tailored for Wind
 - **Minimalist Interface**: Simple command-line loop for recurring inputs.
 - **Native Windows Integration**: Uses Microsoft's Speech API for reliable performance without heavy external libraries.
 - **Escape Commands**: Easy `/exit` command to terminate the session instantly.
+
+## 🆕 What's New (v0.1.7)
+- **Terminal Styling**: Integrated the `rich` library for a much cleaner and colored terminal experience.
+- **Improved Input**: Styled input prompts with color-coded instructions.
+- **Bug Fixes**: Resolved issues with library imports and missing package declarations.
+- **Refined Exit**: Added graceful handling for `Ctrl+C` (KeyboardInterrupt) and the `/exit` command.
 
 ## 🛠️ Requirements
 - **OS**: Windows (Required for `SAPI.SpVoice`).
