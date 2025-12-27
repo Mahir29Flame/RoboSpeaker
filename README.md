@@ -2,6 +2,8 @@
 
 A lightweight, zero-configuration Text-to-Speech (TTS) utility tailored for Windows. **RoboSpeaker** leverages the native Windows SAPI (Speech API) to provide a seamless vocal interface for your Python scripts or manual text input.
 
+[![PyPI Downloads](https://static.pepy.tech/personalized-badge/robospeaker-win?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads)](https://pepy.tech/projects/robospeaker-win)
+
 ---
 
 ## ✨ Features
@@ -65,3 +67,8 @@ What do u want me to speak(/exit to exit): Hello World!
 
 ## ⚖️ License
 This project is open-source. Feel free to use and modify it for your own vocal automation needs.
+
+## Author
+Created with ❤️ by [Mahir29Flame](https://github.com/Mahir29Flame).\
+Plz ⭐ this Repo if u liked it :)
+repo link [RoboSpeaker](https://github.com/Mahir29Flame/RoboSpeaker) (if you are in PyPI)
