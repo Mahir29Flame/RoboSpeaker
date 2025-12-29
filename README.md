@@ -2,7 +2,7 @@
 
 A lightweight, zero-configuration Text-to-Speech (TTS) utility tailored for Windows. **RoboSpeaker** leverages the native Windows SAPI (Speech API) to provide a seamless vocal interface for your Python scripts or manual text input.
 
-[![PyPI Downloads](https://static.pepy.tech/personalized-badge/robospeaker-win?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads)](https://pepy.tech/projects/robospeaker-win)
+[![PyPI Downloads](https://static.pepy.tech/personalized-badge/robospeaker-win?period=total&units=ABBREVIATION&left_color=BLACK&right_color=GREEN&left_text=Downloads)](https://pepy.tech/projects/robospeaker-win)
 
 ---
 
